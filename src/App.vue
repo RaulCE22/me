@@ -19,15 +19,9 @@
   import Vue from 'vue'
   export default Vue.extend({
     name: 'App',
-    computed: {
-      backgroundSrc: () => require('./assets/background.jpg')
-    }
   })
 </script>
 
 <style lang="scss" scoped>
-  .background {
-    height: 300px;
-    overflow: hidden;
-  }
+
 </style>
