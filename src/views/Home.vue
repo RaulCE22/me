@@ -7,17 +7,17 @@
             <v-img :src="meUrl" contain class="my-2 mx-2"></v-img>
           </v-flex>
           <v-flex xs8 class="mt-2 mr-2">
-            <div class="display-1 font-weight-thin">I`m <span class="display-1 ">Raul Calle</span></div>
-            <div class="my-2 subtitle font-weight-light">Software engineer </div>
+            <div class="display-1 font-weight-thin">{{ $t('home.title') }} <span class="display-1 ">Raul Calle</span></div>
+            <div class="my-2 subtitle font-weight-light">{{ $t('home.subtitle') }} </div>
             <v-divider light></v-divider>
             <v-layout>
               <v-flex xs4 class="font-weight-bold">
-                <div class="mt-2 ml-2">Age:</div>
-                <div class="mt-2 ml-2">Email:</div>
+                <div class="mt-2 ml-2">{{ $t('home.age') }}:</div>
+                <div class="mt-2 ml-2">{{ $t('home.email') }}:</div>
                 <div class="mt-2 ml-2">Github:</div>
-                <div class="mt-2 ml-2">Freelance:</div>
+                <div class="mt-2 ml-2">{{ $t('home.freelance') }}:</div>
                 <div class="mt-2 hidden-sm-and-down">
-                  <v-btn class="text-capitalize" small color="info">On vacation</v-btn>
+                  <v-btn class="text-capitalize" small color="info">{{ $t('home.vacation') }}</v-btn>
                 </div>
               </v-flex>
               <v-flex xs8>

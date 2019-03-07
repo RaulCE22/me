@@ -30,4 +30,4 @@ export default new Router({
       component: () => import(/* webpackChunkName: "contact" */ "./views/Contact.vue")
     }
   ]
-});
+})

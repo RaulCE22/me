@@ -1,0 +1,28 @@
+{
+  "workinprogress": "Lo sentimos, pagina en proceso de construccion...",
+  "navbar": {
+    "home": "Home",
+    "projects": "Proyectos",
+    "academy": "Academico",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Soy ",
+    "subtitle": "Ingeniero informático",
+    "age": "Edad",
+    "email": "Mail",
+    "freelance": "Autonomo",
+    "vacation": "En vacaciones",
+    "date": "hasta el 1 de Abril, 2019"
+  },
+  "academy": {
+    "doctor": "* Doctorado en ingenieria informática",
+    "uni_sala": "Universidad de Salamanca",
+    "master": "Master en Automática y Robótica",
+    "uni_alicant": "Universidad de Alicante",
+    "curso_web": "Curso Desarrollo Web",
+    "degree": "Ingeniería técnica en informática de sistemas",
+    "uni_extre": "Universidad de Extremadura",
+    "title_monitor": "Título de Monitor de Ocio y tiempo libre"
+  }
+}

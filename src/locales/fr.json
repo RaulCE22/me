@@ -1,0 +1,28 @@
+{
+  "workinprogress": "Desoleé, mi site est en reconstruction",
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "academy": "Académique",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Je suis ",
+    "subtitle": "Ingénieur en informatique",
+    "age": "Age",
+    "email": "Email",
+    "freelance": "Auto-entrepreneurs",
+    "vacation": "En vacances",
+    "date": "jusqu'au 1er avril 2019"
+  },
+  "academy": {
+    "doctor": "* Doctorat en génie informatique",
+    "uni_sala": "Université de Salamanca",
+    "master": "Master en automatique et robotique",
+    "uni_alicant": "Université de Alicante",
+    "curso_web": "Cours de développement Web",
+    "degree": "Ingénierie technique des systèmes informatiques",
+    "uni_extre": "Université de Extremadura",
+    "title_monitor": "Titre du moniteur de loisir et de temps libre"
+  }
+}

@@ -1,27 +1,83 @@
 <template>
-  <v-app>
-    <v-toolbar>
+  <v-app v-touch="{
+      left: () => swipe(1),
+      right: () => swipe(-1),
+    }">
+    <v-toolbar dark>
       <v-toolbar-title>R<span class="font-weight-light">C</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat to="/home">Home</v-btn>
-        <v-btn flat to="/project">Project</v-btn>
-        <v-btn flat to="/academy">Academy</v-btn>
-        <v-btn flat to="/contact">Contact</v-btn>
+      <v-toolbar-items class="hidden-sm-and-up">
+        <v-btn flat icon to="/home">
+          <v-icon>home</v-icon>
+        </v-btn>
+        <v-btn flat icon to="/projects">
+          <v-icon>laptop_mac</v-icon>
+        </v-btn>
+        <v-btn flat icon to="/academy">
+          <v-icon>school</v-icon>
+        </v-btn>
+        <v-btn flat icon to="/contact">
+          <v-icon>email</v-icon>
+        </v-btn>
+      </v-toolbar-items>
+      <v-toolbar-items class="hidden-xs-only">
+        <v-btn flat to="/home">{{$t('navbar.home')}}
+          <v-icon right>home</v-icon>
+        </v-btn>
+        <v-btn flat to="/projects">{{$t('navbar.projects')}}
+          <v-icon right>laptop_mac</v-icon>
+        </v-btn>
+        <v-btn flat to="/academy">{{$t('navbar.academy')}}
+          <v-icon right>school</v-icon>
+        </v-btn>
+        <v-btn flat to="/contact">{{$t('navbar.contact')}}
+          <v-icon right>email</v-icon>
+        </v-btn>
       </v-toolbar-items>
     </v-toolbar>
-    <router-view></router-view>
+    <router-view >
+    </router-view>
+    <v-footer  fixed class="pa-3" dark>
+      <v-speed-dial v-model="fab" direction="right" >
+        <template v-slot:activator>
+              <v-btn v-model="fab" flat color="primary" fab small>
+                <v-icon>language</v-icon>
+                <v-icon>close</v-icon></v-btn>
+        </template>
+      <v-btn fab flat small color="red" v-on:click="changeLanguage('es')">es</v-btn>
+      <v-btn fab flat small color="green" v-on:click="changeLanguage('en')">en</v-btn>
+      <v-btn fab flat small color="indigo" v-on:click="changeLanguage('fr')">fr</v-btn>
+    </v-speed-dial>
+        <v-spacer></v-spacer>
+    <div>v0.1 (7/03/2019)</div>
+  </v-footer>
   </v-app>
 </template>
 
 <script lang="ts">
-  import Vue from 'vue'
+  import Vue from 'vue';
+  import router from './router';
+
+import i18n from '@/plugins/i18n';
+
   export default Vue.extend({
     name: 'App',
+    data(){
+      return {
+      fab: null,
+      routes: ['home', 'projects', 'academy', 'contact']
+    }},
+    methods: {
+      changeLanguage(locale: string) {i18n.locale = locale},
+      swipe(direction: number) {
+        let index = this.routes.indexOf(router.currentRoute.name || 'home');
+        router.push(this.routes[index+direction] || router.currentRoute.name || 'home');
+      }
+    }
   })
 </script>
 
 <style lang="scss" scoped>
-
+  
 </style>

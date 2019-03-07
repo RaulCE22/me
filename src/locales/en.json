@@ -1,3 +1,28 @@
 {
-  "message": "hello i18n !!"
+  "workinprogress": "Sorry, web site under construction...",
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "academy": "Academy",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "I´m ",
+    "subtitle": "Software engineer",
+    "age": "Age",
+    "email": "Email",
+    "freelance": "Freelance",
+    "vacation": "On vacation",
+    "date": "till April 1, 2019"
+  },
+  "academy": {
+    "doctor": "Doctorate in computer engineering",
+    "uni_sala": "University of Salamanca",
+    "master": "Master in Automatic and Robotics",
+    "uni_alicant": "University of Alicante",
+    "web_course": "Web Development Course",
+    "degree": "Technical engineering in computer systems",
+    "uni_extre": "University of Extremadura",
+    "title_monitor": "Title of Leisure and Free Time Monitor"
+  }
 }

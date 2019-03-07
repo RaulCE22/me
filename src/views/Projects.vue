@@ -1,5 +1,6 @@
 <template>
   <div class="projects">
-    <h1>This is an projects page</h1>
+    <h3>{{$t('workinprogress')}}</h3>
+    <v-progress-linear :indeterminate="true"></v-progress-linear>
   </div>
 </template>
