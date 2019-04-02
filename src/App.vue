@@ -17,9 +17,9 @@
         <v-btn flat icon to="/academy">
           <v-icon>school</v-icon>
         </v-btn>
-        <v-btn flat icon to="/contact">
-          <v-icon>email</v-icon>
-        </v-btn>
+        <!-- <v-btn flat icon to="/curiosities">
+          <v-icon>touch_app</v-icon>
+        </v-btn> -->
       </v-toolbar-items>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn flat to="/home">{{$t('navbar.home')}}
@@ -31,9 +31,9 @@
         <v-btn flat to="/academy">{{$t('navbar.academy')}}
           <v-icon right>school</v-icon>
         </v-btn>
-        <v-btn flat to="/contact">{{$t('navbar.contact')}}
-          <v-icon right>email</v-icon>
-        </v-btn>
+        <!-- <v-btn flat to="/curiosities">{{$t('navbar.curiosities')}}
+          <v-icon right>touch_app</v-icon>
+        </v-btn> -->
       </v-toolbar-items>
     </v-toolbar>
     <router-view>
@@ -50,7 +50,7 @@
       <v-btn fab flat small color="indigo" v-on:click="changeLanguage('fr')">fr</v-btn>
     </v-speed-dial>
     <v-spacer></v-spacer>
-    <div>v0.1 (7/03/2019)</div>
+    <div>v0.3 (2/04/2019)</div>
   </v-footer>
   <!-- <curiosities></curiosities> -->
   </v-app>

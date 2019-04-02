@@ -25,9 +25,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "academy" */ "./views/Academy.vue")
     },
     {
-      path: "/contact",
-      name: "contact",
-      component: () => import(/* webpackChunkName: "contact" */ "./views/Contact.vue")
+      path: "/curiosities",
+      name: "curiosities",
+      component: () => import(/* webpackChunkName: "curiosities" */ "./views/Curiosities.vue")
     }
   ]
 })
