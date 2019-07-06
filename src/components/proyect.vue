@@ -11,7 +11,7 @@
             </v-btn>
           </v-flex>
         </v-layout>
-        <div>{{description}}</div>
+        <div>{{$t(description)}}</div>
         <h4 class="subtitle mt-2 mb-1">Enlaces</h4>
         <div v-for="link in links" v-bind:key="link.url">
           <a target="_blank" :href="link.url">{{link.title}}</a>

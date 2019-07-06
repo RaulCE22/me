@@ -1,32 +1,53 @@
 {
-  "workinprogress": "Sorry, web site under construction...",
-  "navbar": {
-    "home": "Home",
-    "employment": "Employments",
-    "projects": "Projects",
-    "academy": "Academy",
-    "contact": "Contact",
-    "curiosities": "Curiosities"
-  },
-  "home": {
-    "title": "I´m ",
-    "subtitle": "Software engineer",
-    "age": "Age",
-    "email": "Email",
-    "yearsworks": "Exp. laboral",
-    "freelance": "Freelance",
-    "videocall": "Video-llamada",
-    "vacation": "On vacation",
-    "date": "till April 1, 2019"
-  },
-  "academy": {
-    "doctor": "Doctorate in computer engineering",
-    "uni_sala": "University of Salamanca",
-    "master": "Master in Automatic and Robotics",
-    "uni_alicant": "University of Alicante",
-    "web_course": "Web Development Course",
-    "degree": "Technical engineering in computer systems",
-    "uni_extre": "University of Extremadura",
-    "title_monitor": "Title of Leisure and Free Time Monitor"
-  }
+	"academy": {
+		"curso_web": "",
+		"degree": "Technical engineering in computer systems",
+		"doctor": "Doctorate in computer engineering",
+		"master": "Master in Automatic and Robotics",
+		"title_monitor": "Title of Leisure and Free Time Monitor",
+		"uni_alicant": "University of Alicante",
+		"uni_extre": "University of Extremadura",
+		"uni_sala": "University of Salamanca",
+		"web_course": "Web Development Course"
+	},
+	"employment": {
+		"essengrp": {
+			"description": "Using agile methodologies together with a team of 5-6 multidisciplinary people, we carry out the analysis, design and implementation of the company's main product. Mobile application implemented in Angular 6 and Ionic, with communication through REST services with the Back-End. \"Responsive\" web application implemented in Angular 6 and using the PrimeNG framework, for the management of roles and data.",
+			"title": "Programmer analyst \"Front-End\""
+		},
+		"profuturo": {
+			"description": "Development of multi-device applications (mobile, tablet) based on Angular, Cordova and Ionic. For an educational project for developing countries.",
+			"title": "Programmer analyst \"Front-End\""
+		},
+		"ted": {
+			"description": "Development of mobile applications in AngularJS and Cordova for education projects.",
+			"title": "Junior programmer"
+		}
+	},
+	"home": {
+		"age": "Age",
+		"date": "till April 1, 2019",
+		"email": "Email",
+		"freelance": "Freelance",
+		"subtitle": "Software engineer",
+		"title": "I´m ",
+		"vacation": "On vacation",
+		"videocall": "Video-llamada",
+		"yearsworks": "Exp. laboral"
+	},
+	"navbar": {
+		"academy": "Academy",
+		"contact": "Contact",
+		"curiosities": "Curiosities",
+		"employment": "Employments",
+		"home": "Home",
+		"projects": "Projects"
+	},
+	"project": {
+		"covuaturage": "Progressive web app to share car trips. Created to be used in the Reunion Island as a project to reduce traffic jams and the continuous emission of gases caused by the massive use of the unipersonal car",
+		"infosolidario": "Multi-platform web project that wants to serve as a response to the tendency to accumulate objects that are no longer used in homes. The web wants to facilitate the donation of food, objects or clothes in disuse to people who want to get rid of them but who, often, do not know how. With \"Infosolidario\" you can make multiple donation proposals (from objects on time).",
+		"musiclivemap": "Web app to share live music concerts. In an easy and intuitive way we can search and add live music concerts on the map. We can even install it on different mobile devices to have faster access and thus not miss any musical show.",
+		"selfiematon": "SelfieMatón is a self-capture device for personal images and automatic upload to different social networks. All this by applying gamification methodologies in order to involve the audience. The device will be located in large venues (shopping centers, festivals, wedding halls) and is based on the application and use of Neuromarketing, understanding this as the marketing of experiences, of emotions, that is, a type of marketing based on provoking feelings and emotions in the consumer so that he connects with a brand in a much deeper way, all of this having a clear focus on events. The objective is to promote the value and the notoriety of our sponsors in social networks, as well as to monetize the experiences generated. It is a commitment to the latest technologies, internet and various marketing trends such as gamification. The project aims to promote social impact."
+	},
+	"workinprogress": "Sorry, web site under construction..."
 }

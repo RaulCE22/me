@@ -45,8 +45,8 @@
         <v-divider light></v-divider>
         <v-card-actions style="display: block">
           <v-chip
-            class="ma-1"
-            v-for="chip in chips"
+           :class="`ma-1 animated jackInTheBox delay-${index}s`"
+            v-for="(chip, index) in chips"
             v-bind:key="chip.url"
             @click="open(chip.url)"
           >{{chip.title}}</v-chip>

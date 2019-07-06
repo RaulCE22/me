@@ -68,7 +68,7 @@
       <v-btn fab flat small color="indigo" v-on:click="changeLanguage('fr')">fr</v-btn>
     </v-speed-dial>
     <v-spacer></v-spacer>
-    <div>v0.3 (2/04/2019)</div>
+    <div>v0.4 (6/07/2019)</div>
   </v-footer>
   <!-- <curiosities></curiosities> -->
   </v-app>
@@ -106,6 +106,6 @@
   })
 </script>
 
-<style lang="scss" scoped>
-  
+<style>
+@import './assets/animate.css';
 </style>

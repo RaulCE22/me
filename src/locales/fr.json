@@ -1,32 +1,53 @@
 {
-  "workinprogress": "Desoleé, mi site est en reconstruction",
-  "navbar": {
-    "home": "Home",
-    "employment": "Employments",
-    "projects": "Projects",
-    "academy": "Académique",
-    "contact": "Contact",
-    "curiosities": "Curiosities"
-  },
-  "home": {
-    "title": "Je suis ",
-    "subtitle": "Ingénieur en informatique",
-    "age": "Age",
-    "email": "Email",
-    "yearsworks": "Experiencia laboral",
-    "freelance": "Auto-entrepreneurs",
-    "videocall": "Video-llamada",
-    "vacation": "En vacances",
-    "date": "jusqu'au 1er avril 2019"
-  },
-  "academy": {
-    "doctor": "* Doctorat en génie informatique",
-    "uni_sala": "Université de Salamanca",
-    "master": "Master en automatique et robotique",
-    "uni_alicant": "Université de Alicante",
-    "curso_web": "Cours de développement Web",
-    "degree": "Ingénierie technique des systèmes informatiques",
-    "uni_extre": "Université de Extremadura",
-    "title_monitor": "Titre du moniteur de loisir et de temps libre"
-  }
+	"academy": {
+		"curso_web": "Cours de développement Web",
+		"degree": "Ingénierie technique des systèmes informatiques",
+		"doctor": "* Doctorat en génie informatique",
+		"master": "Master en automatique et robotique",
+		"title_monitor": "Titre du moniteur de loisir et de temps libre",
+		"uni_alicant": "Université de Alicante",
+		"uni_extre": "Université de Extremadura",
+		"uni_sala": "Université de Salamanca",
+		"web_course": ""
+	},
+	"employment": {
+		"essengrp": {
+			"description": "En utilisant des méthodologies agiles avec une équipe de 5 à 6 personnes pluridisciplinaires, nous effectuons l'analyse, la conception et la mise en œuvre du produit principal de la société. Application mobile mise en œuvre dans Angular 6 et Ionic, avec communication via les services REST avec le back-end. Application web \"responsive\" implémentée dans Angular 6 et utilisant le framework PrimeNG, pour la gestion des rôles et des données.",
+			"title": "Programmeur analyste \"Front-End\""
+		},
+		"profuturo": {
+			"description": "Développement d'applications multi-appareils (mobiles, tablettes) basées sur Angular, Cordova et Ionic. Pour un projet éducatif pour les pays en développement.",
+			"title": "Programmeur analyste \"Front-End\""
+		},
+		"ted": {
+			"description": "Développement d'applications mobiles sous AngularJS et Cordova pour des projets éducatifs.",
+			"title": "Programmeur junior"
+		}
+	},
+	"home": {
+		"age": "Age",
+		"date": "jusqu'au 1er avril 2019",
+		"email": "Email",
+		"freelance": "Auto-entrepreneurs",
+		"subtitle": "Ingénieur en informatique",
+		"title": "Je suis ",
+		"vacation": "En vacances",
+		"videocall": "Video-llamada",
+		"yearsworks": "Experiencia laboral"
+	},
+	"navbar": {
+		"academy": "Académique",
+		"contact": "Contact",
+		"curiosities": "Curiosities",
+		"employment": "Employments",
+		"home": "Home",
+		"projects": "Projects"
+	},
+	"project": {
+		"covuaturage": "Application web progressive pour partager des trajets en voiture. Créé pour être utilisé à la Réunion comme un projet visant à réduire les embouteillages et les émissions continues de gaz causées par l'utilisation massive de la voiture unipersonnelle",
+		"infosolidario": "Projet Web multi-plateformes visant à répondre à la tendance à accumuler des objets qui ne sont plus utilisés à la maison. Le Web veut faciliter le don de nourriture, d'objets ou de vêtements en désuétude aux personnes qui veulent s'en débarrasser mais qui, souvent, ne savent pas comment. Avec \"Infosolidario\", vous pouvez faire plusieurs propositions de dons (à partir d'objets à temps).",
+		"musiclivemap": "Application Web pour partager des concerts de musique en direct. De manière simple et intuitive, nous pouvons rechercher et ajouter des concerts de musique en direct sur la carte. Nous pouvons même l'installer sur différents appareils mobiles pour avoir un accès plus rapide et ainsi ne manquer aucune émission musicale.",
+		"selfiematon": "SelfieMatón est un appareil de capture automatique d'images personnelles et de téléchargement automatique sur différents réseaux sociaux. Tout cela en appliquant des méthodologies de gamification afin d'impliquer le public. Le dispositif sera situé dans de grandes salles (centres commerciaux, festivals, salles de mariage) et est basé sur l'application et l'utilisation du Neuromarketing, en tant que marketing d'expériences, d'émotions, c'est-à-dire un type de marketing fondé sur la provocation. sentiments et émotions chez le consommateur afin qu’il se connecte à une marque de manière beaucoup plus profonde, le tout étant clairement axé sur les événements. L'objectif est de promouvoir la valeur et la notoriété de nos sponsors dans les réseaux sociaux, ainsi que de monétiser les expériences générées. C'est un engagement envers les dernières technologies, Internet et diverses tendances marketing telles que la gamification. Le projet vise à promouvoir l'impact social."
+	},
+	"workinprogress": "Desoleé, mi site est en reconstruction"
 }

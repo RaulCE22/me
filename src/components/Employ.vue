@@ -4,8 +4,8 @@
       <v-flex xs7>
         <v-card-title primary-title>
           <div>
-            <div class="mb-2 headline">{{title}}</div>
-            <div>{{description}}</div>
+            <div class="mb-2 headline">{{$t(title)}}</div>
+            <div>{{$t(description)}}</div>
           </div>
         </v-card-title>
       </v-flex>
