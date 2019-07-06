@@ -2,6 +2,7 @@
   "workinprogress": "Desoleé, mi site est en reconstruction",
   "navbar": {
     "home": "Home",
+    "employment": "Employments",
     "projects": "Projects",
     "academy": "Académique",
     "contact": "Contact",
@@ -12,6 +13,7 @@
     "subtitle": "Ingénieur en informatique",
     "age": "Age",
     "email": "Email",
+    "yearsworks": "Experiencia laboral",
     "freelance": "Auto-entrepreneurs",
     "vacation": "En vacances",
     "date": "jusqu'au 1er avril 2019"

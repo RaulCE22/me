@@ -12,13 +12,26 @@
 
 <script lang="ts">
 import Vue from "vue";
-import proyect from "../components/proyect.vue";
+import proyect from "../components/Proyect.vue";
 
 export default Vue.extend({
   components: { proyect },
   data() {
     return {
       proyects: [
+        {
+          title: "Music Live Map",
+          code: "https://github.com/RaulCE22/LiveMusicMap",
+          description: "Web app para compartir conciertos de musica en directo. De una forma facil e intuitiva podremos buscar y agregar en el mapa conciertos de música en directo. Podremos incluso instalarla en los diferentes dispositivos móviles para tener un acceso más rápido y así no perdernos ningún espectáculo músical.  ",
+          links: [
+            {url: 'http://bit.do/musicmap', title: 'Music Map'}
+          ],
+          chips: [
+            {url: 'https://vuejs.org/', title: 'VueJs'},
+            {url: 'https://quasar-framework.org/', title: 'Quasar'},
+            {url: 'https://firebase.google.com/', title: 'Firebase'},
+          ]
+        },
         {
           title: "Covuaturage le la",
           code: "https://github.com/RaulCE22",

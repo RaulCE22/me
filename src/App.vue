@@ -11,11 +11,15 @@
         <v-btn flat icon to="/home">
           <v-icon>home</v-icon>
         </v-btn>
-        <v-btn flat icon to="/projects">
-          <v-icon>laptop_mac</v-icon>
+        <v-btn flat icon to="/employment">
+          <v-icon>people</v-icon>
         </v-btn>
+  
         <v-btn flat icon to="/academy">
           <v-icon>school</v-icon>
+        </v-btn>
+              <v-btn flat icon to="/projects">
+          <v-icon>laptop_mac</v-icon>
         </v-btn>
         <!-- <v-btn flat icon to="/curiosities">
           <v-icon>touch_app</v-icon>
@@ -25,17 +29,31 @@
         <v-btn flat to="/home">{{$t('navbar.home')}}
           <v-icon right>home</v-icon>
         </v-btn>
-        <v-btn flat to="/projects">{{$t('navbar.projects')}}
-          <v-icon right>laptop_mac</v-icon>
+        <v-btn flat to="/employment">{{$t('navbar.employment')}}
+          <v-icon right>people</v-icon>
         </v-btn>
         <v-btn flat to="/academy">{{$t('navbar.academy')}}
           <v-icon right>school</v-icon>
         </v-btn>
+        <v-btn flat to="/projects">{{$t('navbar.projects')}}
+          <v-icon right>laptop_mac</v-icon>
+        </v-btn>
+     
         <!-- <v-btn flat to="/curiosities">{{$t('navbar.curiosities')}}
           <v-icon right>touch_app</v-icon>
         </v-btn> -->
       </v-toolbar-items>
+
     </v-toolbar>
+    <div class="hidden-sm-and-up" v-if="$router.currentRoute.name != 'home'">
+      <v-divider light></v-divider>
+      <v-toolbar  dense dark>
+        <v-toolbar-title style="margin: auto;"><span class="font-weight-light" style="text-transform: capitalize;">{{$router.currentRoute.name}}</span>
+      </v-toolbar-title>
+      </v-toolbar>
+
+    </div>
+
     <router-view>
     </router-view>
     <v-footer fixed class="pa-3" dark>
@@ -71,7 +89,7 @@
     data() {
       return {
         fab: null,
-        routes: ['home', 'projects', 'academy', 'contact']
+        routes: ['home', 'employment', 'academy' ,'projects', 'contact']
       }
     },
     methods: {
@@ -79,7 +97,9 @@
         i18n.locale = locale
       },
       swipe(direction: number) {
+        
         let index = this.routes.indexOf(router.currentRoute.name || 'home');
+        console.log(index, router.currentRoute.name);
         router.push(this.routes[index + direction] || router.currentRoute.name || 'home');
       }
     }

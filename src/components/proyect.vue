@@ -2,9 +2,9 @@
   <v-card class="ma-2">
     <v-card-title primary-title>
       <div class="mb-2">
-        <v-layout>
-          <v-flex xs10 class="headline mb-2">{{title}}</v-flex>
-          <v-flex xs2 class="text-xs-right">
+        <v-layout justify-space-between>
+          <v-flex xs12 sm10 class="headline mb-2">{{title}}</v-flex>
+          <v-flex xs12 sm2 class="pr-10">
             <v-btn small outline round @click="open(code)">
               Code
               <v-icon>code</v-icon>
@@ -17,7 +17,7 @@
           <a target="_blank" :href="link.url">{{link.title}}</a>
         </div>
       </div>
-      <v-chip v-for="chip in chips" v-bind:key="chip.url" @click="open(chip.url)">{{chip.title}}</v-chip>
+      <v-chip class="ma-2" v-for="chip in chips" v-bind:key="chip.url" @click="open(chip.url)">{{chip.title}}</v-chip>
     </v-card-title>
   </v-card>
 </template>

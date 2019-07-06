@@ -2,6 +2,7 @@
   "workinprogress": "Lo sentimos, pagina en proceso de construccion...",
   "navbar": {
     "home": "Home",
+    "employment": "Trabajos",
     "projects": "Proyectos",
     "academy": "Academico",
     "contact": "Contacto",
@@ -12,6 +13,7 @@
     "subtitle": "Ingeniero informático",
     "age": "Edad",
     "email": "Mail",
+    "yearsworks": "Experiencia laboral",
     "freelance": "Autonomo",
     "vacation": "En vacaciones",
     "date": "hasta el 1 de Abril, 2019"

@@ -2,6 +2,7 @@
   "workinprogress": "Sorry, web site under construction...",
   "navbar": {
     "home": "Home",
+    "employment": "Employments",
     "projects": "Projects",
     "academy": "Academy",
     "contact": "Contact",
@@ -12,6 +13,7 @@
     "subtitle": "Software engineer",
     "age": "Age",
     "email": "Email",
+    "yearsworks": "Exp. laboral",
     "freelance": "Freelance",
     "vacation": "On vacation",
     "date": "till April 1, 2019"
